@@ -9,21 +9,21 @@ import DessertImg from '../utils/img/dessert.jpg';
 const breakfast = [
     {
         id: 1,
-        name: 'English Breakfast',
+        name: 'Breakfast',
         description: 'smoked bacon, sausage, tomato, mushrooms, black pudding, baked beans, eggs',
-        price: '£12'
+        price: '120.00'
     },
     {
         id: 2,
         name: 'Avocado Toast',
         description: 'poached egg, avocado, onion, tomatoes, bread',
-        price: '£8'
+        price: '80.00'
     },
     {
         id: 3,
         name: 'Burrito',
         description: 'tortilla, egg, cheese, potatoes, pork meat',
-        price: '£11'
+        price: '110.00'
     }
 ];
 const lunch = [
@@ -31,61 +31,61 @@ const lunch = [
         id: 1,
         name: 'Caesar Salad',
         description: 'chicken breast, romaine lettuce, croutons, parmesan',
-        price: '£15'
+        price: '150.00'
     },
     {
         id: 2,
-        name: 'Spaghetti Carbonara',
+        name: 'Spaghetti ',
         description: 'spaghetti, pancetta, garlic, eggs, parmesan, pepper',
-        price: '£14'
+        price: '140.00'
     },
     {
         id: 3,
         name: 'Pizza',
         description: 'chorizo, italian salami, tomatoes, mushrooms, olives',
-        price: '£12'
+        price: '120.00'
     }
 ];
 
 const dinner = [
     {
         id: 1,
-        name: 'Spicy Beef',
-        description: 'spicy beef, potatoes, carrots, cheese sauce, spices',
-        price: '£17'
+        name: 'Spicy chicken',
+        description: 'spicy chicken, potatoes, carrots, cheese sauce, spices',
+        price: '170.00'
     },
     {
         id: 2,
-        name: 'Spaghetti Bolognese',
+        name: 'mushroom',
         description: 'onion, carrot, celery, minced meat, spaghetti, parmesan',
-        price: '£15'
+        price: '150.00'
     },
     {
         id: 3,
         name: 'Chickpea Curry',
         description: 'onion, chickpea, garlic, mushrooms, tomatoes, spices',
-        price: '£12'
+        price: '120.00'
     }
 ];
 
 const dessert = [
     {
         id: 1,
-        name: 'Lemon Cake',
-        description: 'flour, sugar, baking powder, lemon',
-        price: '£9'
+        name: 'chocalate Cake',
+        description: 'flour, sugar, baking powder, chocalate',
+        price: '190.00'
     },
     {
         id: 2,
         name: 'Cinnamon Rolls',
         description: 'flour, salt, sugar, cinnamon, yeast, sour cream, milk',
-        price: '£11'
+        price: '110.00'
     },
     {
         id: 3,
-        name: 'Vegan Pancakes',
+        name: 'Pancakes',
         description: 'flour, sugar, baking powder, soya milk, blueberries',
-        price: '£8'
+        price: '80.00'
     }
 ];
 
@@ -103,7 +103,7 @@ function Menu() {
                     <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Breakfast</h2>
                     <div className='row flex-column-reverse flex-lg-row'>
                         <div className='col-lg-6 d-flex justify-content-center'>
-                            <img src={BreakfastImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
+                            <img src={BreakfastImg} className='img-fluid w-50 mt-4 mt-lg-0' alt="" />
                         </div>
                         <div className='col-lg-6 d-flex flex-column justify-content-around'>
                             {breakfast.map((breakfast) => (
@@ -152,7 +152,7 @@ function Menu() {
                             ))}
                         </div>
                         <div className='col-lg-6 d-flex justify-content-center'>
-                            <img src={LunchImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
+                            <img src={LunchImg} className='img-fluid w-50 mt-4 mt-lg-0' alt="" />
                         </div>
                     </div>
                 </div>
@@ -163,7 +163,7 @@ function Menu() {
                     <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Dinner</h2>
                     <div className='row flex-column-reverse flex-lg-row'>
                         <div className='col-lg-6 d-flex justify-content-center'>
-                            <img src={DinnerImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
+                            <img src={DinnerImg} className='img-fluid w-50 mt-4 mt-lg-0' alt="" />
                         </div>
                         <div className='col-lg-6 d-flex flex-column justify-content-around'>
                             {dinner.map((dinner) => (
@@ -212,7 +212,7 @@ function Menu() {
                             ))}
                         </div>
                         <div className='col-lg-6 d-flex justify-content-center'>
-                            <img src={DessertImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
+                            <img src={DessertImg} className='img-fluid w-50 mt-4 mt-lg-0' alt="" />
                         </div>
                     </div>
                 </div>

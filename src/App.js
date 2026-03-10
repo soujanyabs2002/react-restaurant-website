@@ -15,7 +15,7 @@ function App() {
         <Container>
           <Navbar.Brand>
             <Link to="/" className='navbar-brand text-success fw-semibold'>
-              React Restaurant
+              Restaurant
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
